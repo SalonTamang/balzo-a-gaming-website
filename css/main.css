@@ -1,0 +1,92 @@
+/* styling body area */
+body {
+    padding:0;
+    margin:0;
+    font-family: 'Kanit', sans-serif;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(250 60 60 / 65%));
+    text-align:center;
+}
+/* styling for navigation bar */
+nav {
+    width:100%;
+    display:flex;
+    background-color: #0c1124;
+}
+
+/* for every link removing underline */
+a{
+    text-decoration:none; /*removing underline*/
+}
+/* styling for logo */
+.logo{
+    width:20%;
+    color:#fff;
+    font-weight: bold;
+    margin-left:20px;
+    font-size:50px;
+    flex:1;
+}
+/* styling navigation links */
+.nav_links{
+    width:80%;
+    position:relative;
+    top:25px;
+    right:20px;
+    flex:3;
+}
+nav a{
+    font-size:15px;
+    padding:10px;
+    color:#fff;  
+}
+/* using hover effect on navigation links */
+nav a:hover{
+    background-color:#852bd9;
+    cursor:pointer;
+}
+
+/*styling user detail*/
+#user {
+    font-size:15px;
+    color:#fff;
+    margin-top:21px;
+}
+
+#user button {
+    text-decoration:underline;
+    border:none;
+    color:white;
+    outline:none;
+    width:65px;
+    background-color: #0c1124;
+}
+
+/* styling links that has been clicked by the user */
+.selected {
+    background-color:#562394;
+}
+
+/* footer section */
+.footer {
+    display:flex;
+    position:fixed;
+    width: 100%;
+    bottom:0;
+    margin:0 auto;
+    padding:15px;
+    background-color: #0c1124;
+    color:white;
+}
+.info{
+    flex:1;
+}
+.developer{
+    flex:1;
+}
+.footer a {
+    padding:5px;
+}
+.footer img {
+    background-color: white;
+    object-fit: contain; /* preserves the image quality */
+}

@@ -1,0 +1,39 @@
+.user_registration {
+    margin:10px;
+    display:flex;
+    flex-wrap: wrap;
+}
+/* using flex so that they share equal space around */
+/* login form styling */
+.login_section {
+    flex:1;
+}
+/* signup section  */
+.signup_section {
+    flex:1;
+}
+
+h1{
+    margin-bottom:0px;
+}
+/* input design */
+input {
+    border:none;
+    padding:10px;
+    font-size: 15px;
+    outline:none;
+    border-radius:3px;
+    margin-bottom:20px;
+}
+button {
+    padding:10px;
+    font-size:14px;
+    width:150px;
+    border:none;
+    background-color:#eb5757;
+    border-radius:3px;
+}
+button:hover{
+    color:white;
+    cursor:pointer;
+}

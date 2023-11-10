@@ -1,0 +1,26 @@
+/* styling main home container */
+.homeContainer{
+    width:250px;
+    margin:0 auto;
+    padding-top:3%;
+}
+/* styling the play button */
+.homeContainer button {
+    padding:15px;
+    background-color:#2e2e39;
+    border:none;
+    border-radius:5px;
+}
+/* play button hover effect */
+button:hover{
+    background-color: #562394;
+    cursor:pointer;
+}
+a button{
+    color:white;
+    font-size:17px;
+}
+
+
+
+

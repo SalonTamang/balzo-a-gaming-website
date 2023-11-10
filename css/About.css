@@ -1,0 +1,11 @@
+/* main container for about and help area */
+.mainContainer {
+    width:70%;
+    margin:0 auto;
+}
+.about{
+    width:100%;
+    background-color:#f16d6d;
+    height:150px;
+    border-radius:5px;
+}
